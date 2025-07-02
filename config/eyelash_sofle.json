@@ -3,7 +3,7 @@
 	"vendorId": "0x258A",
 	"productId": "0x010C",
 
-	"customKeycodes": [
+	"layout": [
 		{"name": "USB MODE", "title": "Keyboard USB", "shortName": "USB"},
 		{"name": "2.4G MODE", "title": "Keyboard data output 2.4G", "shortName": "2.4G"},
 		{"name": "Bluetooth 1", "title": "Bluetooth working connection 1", "shortName": "BT1"},
