@@ -36,7 +36,7 @@
 
 	"matrix": { "rows": 6, "cols": 16 },
 	
-	"layout": {
+	"layouts": {
 
 		"keymap": [
 			[
