@@ -1,85 +1,129 @@
 {
-    "id": "eyelash_sofle",
-    "name": "Eyelash Sofle",
-    "layouts": {
-      "default_layout": {
-        "name": "default_layout",
-        "layout": [
-            { "row": 0, "col":  0, "x":   1.5, "y":  0.63, "label":  "0\n0" },
-            { "row": 0, "col":  1, "x":   2.5, "y":  0.63, "label":  "0\n1" },
-            { "row": 0, "col":  2, "x":   3.5, "y":  0.25, "label":  "0\n2" },
-            { "row": 0, "col":  3, "x":   4.5, "y": 0.125, "label":  "0\n3" },
-            { "row": 0, "col":  4, "x":   5.5, "y":  0.25, "label":  "0\n4" },
-            { "row": 0, "col":  5, "x":   6.5, "y":  0.25, "label":  "0\n5" },
-            { "row": 0, "col":  7, "x":  9.25, "y":  0.25, "label":  "0\n7" },
-            { "row": 0, "col":  8, "x":    12, "y":  0.25, "label":  "0\n8" },
-            { "row": 0, "col":  9, "x":    13, "y":  0.25, "label":  "0\n9" },
-            { "row": 0, "col": 10, "x":    14, "y": 0.125, "label": "0\n10" },
-            { "row": 0, "col": 11, "x":    15, "y":  0.25, "label": "0\n11" },
-            { "row": 0, "col": 12, "x":    16, "y":  0.63, "label": "0\n12" },
-            { "row": 0, "col": 13, "x":    17, "y":  0.63, "label": "0\n13" },
-            { "row": 1, "col":  0, "x":   1.5, "y":  1.63, "label":  "1\n0" },
-            { "row": 1, "col":  1, "x":   2.5, "y":  1.63, "label":  "1\n1" },
-            { "row": 1, "col":  2, "x":   3.5, "y":  1.25, "label":  "1\n2" },
-            { "row": 1, "col":  3, "x":   4.5, "y": 1.125, "label":  "1\n3" },
-            { "row": 1, "col":  4, "x":   5.5, "y":  1.25, "label":  "1\n4" },
-            { "row": 1, "col":  5, "x":   6.5, "y":  1.25, "label":  "1\n5" },
-            { "row": 1, "col":  7, "x":  9.25, "y":  2.25, "label":  "1\n7" },
-            { "row": 1, "col":  8, "x":    12, "y":  1.25, "label":  "1\n8" },
-            { "row": 1, "col":  9, "x":    13, "y":  1.25, "label":  "1\n9" },
-            { "row": 1, "col": 10, "x":    14, "y": 1.125, "label": "1\n10" },
-            { "row": 1, "col": 11, "x":    15, "y":  1.25, "label": "1\n11" },
-            { "row": 1, "col": 12, "x":    16, "y":  1.63, "label": "1\n12" },
-            { "row": 1, "col": 13, "x":    17, "y":  1.63, "label": "1\n13" },
-            { "row": 2, "col":  0, "x":   1.5, "y":  2.63, "label":  "2\n0" },
-            { "row": 2, "col":  1, "x":   2.5, "y":  2.63, "label":  "2\n1" },
-            { "row": 2, "col":  2, "x":   3.5, "y":  2.25, "label":  "2\n2" },
-            { "row": 2, "col":  3, "x":   4.5, "y": 2.125, "label":  "2\n3" },
-            { "row": 2, "col":  4, "x":   5.5, "y":  2.25, "label":  "2\n4" },
-            { "row": 2, "col":  5, "x":   6.5, "y":  2.25, "label":  "2\n5" },
-            { "row": 2, "col":  7, "x":  8.25, "y":  1.25, "label":  "2\n7" },
-            { "row": 2, "col":  8, "x":    12, "y":  2.25, "label":  "2\n8" },
-            { "row": 2, "col":  9, "x":    13, "y":  2.25, "label":  "2\n9" },
-            { "row": 2, "col": 10, "x":    14, "y": 2.125, "label": "2\n10" },
-            { "row": 2, "col": 11, "x":    15, "y":  2.25, "label": "2\n11" },
-            { "row": 2, "col": 12, "x":    16, "y":  2.63, "label": "2\n12" },
-            { "row": 2, "col": 13, "x":    17, "y":  2.63, "label": "2\n13" },
-            { "row": 3, "col":  0, "x":   1.5, "y":  3.63, "label":  "3\n0" },
-            { "row": 3, "col":  1, "x":   2.5, "y":  3.63, "label":  "3\n1" },
-            { "row": 3, "col":  2, "x":   3.5, "y":  3.25, "label":  "3\n2" },
-            { "row": 3, "col":  3, "x":   4.5, "y": 3.125, "label":  "3\n3" },
-            { "row": 3, "col":  4, "x":   5.5, "y":  3.25, "label":  "3\n4" },
-            { "row": 3, "col":  5, "x":   6.5, "y":  3.25, "label":  "3\n5" },
-            { "row": 3, "col":  7, "x": 10.25, "y":  1.25, "label":  "3\n7" },
-            { "row": 3, "col":  8, "x":    12, "y":  3.25, "label":  "3\n8" },
-            { "row": 3, "col":  9, "x":    13, "y":  3.25, "label":  "3\n9" },
-            { "row": 3, "col": 10, "x":    14, "y": 3.125, "label": "3\n10" },
-            { "row": 3, "col": 11, "x":    15, "y":  3.25, "label": "2\n11" },
-            { "row": 3, "col": 12, "x":    16, "y":  3.63, "label": "3\n12" },
-            { "row": 3, "col": 13, "x":    17, "y":  3.63, "label": "3\n13" },
-            { "row": 4, "col":  0, "x":     8, "y":   3.5, "label":  "4\n0" },
-            { "row": 4, "col":  1, "x":   3.5, "y":  4.25, "label":  "4\n1" },
-            { "row": 4, "col":  2, "x":   4.5, "y": 4.125, "label":  "4\n2" },
-            { "row": 4, "col":  3, "x":   5.5, "y":  4.25, "label":  "4\n3" },
-            { "row": 4, "col":  4, "x":     7, "y":  4.25, "label":  "4\n4", "r":  30, "rx": 6.5, "ry": 4.25 },
-            { "row": 4, "col":  5, "x":  8.25, "y":  3.75, "label":  "4\n5", "r":  30, "rx": 6.5, "ry": 4.25 },
-            { "row": 4, "col":  7, "x":  9.25, "y":  1.25, "label":  "4\n7" },
-            { "row": 4, "col":  8, "x": 10.25, "y":  3.75, "label":  "4\n8", "r": -30, "rx":  13, "ry": 4.25 },
-            { "row": 4, "col":  9, "x":  11.5, "y":  4.25, "label":  "4\n9", "r": -30, "rx":  13, "ry": 4.25 },
-            { "row": 4, "col": 10, "x":    13, "y":  4.25, "label": "4\n10" },
-            { "row": 4, "col": 11, "x":    14, "y": 4.125, "label": "4\n11" },
-            { "row": 4, "col": 12, "x":    15, "y":  4.25, "label": "4\n12" }
-          ]
-      }
-    },
-    "sensors": [
-      {
-        "ref": "left_encoder",
-        "name": "encoder_left",
-        "identifier": "encoder_left",
-        "compatible": "alps,ec11",
-        "label": "LEFT_ENCODER",
-        "enabled": true
-      }
-    ]
-  }
+	"name": "AULA F65",
+	"vendorId": "0x258A",
+	"productId": "0x010C",
+
+	"customKeycodes": [
+		{"name": "USB MODE", "title": "Keyboard USB", "shortName": "USB"},
+		{"name": "2.4G MODE", "title": "Keyboard data output 2.4G", "shortName": "2.4G"},
+		{"name": "Bluetooth 1", "title": "Bluetooth working connection 1", "shortName": "BT1"},
+		{"name": "Bluetooth 2", "title": "Bluetooth working connection 2", "shortName": "BT2"},
+		{"name": "Bluetooth 3", "title": "Bluetooth working connection 3", "shortName": "BT3"},
+		{"name": "Lock Win", "title": "Lock Win", "shortName": "LockWin"},
+		{"name": "RGB Mode Cycle", "title": "RGB Mode change cycle", "shortName": "RGB Mode"},
+		{"name": "RGB Color Cycle", "title": "RGB Color change cycle", "shortName": "RGB Color"},
+		{"name": "Brigth Inc", "title": "Brigth Inc", "shortName": "Br +"},
+		{"name": "Brigth Dec", "title": "Brigth Dec", "shortName": "Br -"},
+		{"name": "Speed Inc", "title": "Speed Inc", "shortName": "Sp +"},
+		{"name": "Speed Dec", "title": "Speed Dec", "shortName": "Sp -"},
+		{"name": "Game Mode", "title": "WORD IN Game Mode", "shortName": "Game"},
+		{"name": "Game Mode Record", "title": "GameMode Record", "shortName": "REC"},
+		{"name": "RGB OFF/ON", "title": "RGB OFF/ON", "shortName": "OFF/ON"},
+		{"name": "Keyboard Reset", "title": "Keyboard Reset", "shortName": "Reset"},
+		{"name": "EMI Test", "title": "EMI Test", "shortName": "EMI"},
+		{"name": "Battery View", "title": "Battery View", "shortName": "Battery View"},
+		{"name": "WIN MAC", "title": "WIN OR MAC", "shortName": "WinMac"},
+		{"name": "WIN", "title": "WIN", "shortName": "Win"},
+		{"name": "MAC", "title": "MAC", "shortName": "Mac"},
+		{"name": "NKRO Mode", "title": "NKRO Mode", "shortName": "NKRO"},
+		{"name": "White Mode", "title": "White Mode", "shortName": "White"},
+		{"name": "Swap ASDW", "title": "Swap ASDW Mode", "shortName": "Swap ASDW"},
+		{"name": "Side Mode", "title": "Side Mode", "shortName": "Side Mode"},
+		{"name": "Side Color", "title": "Side Color", "shortName": "Side Color"},
+		{"name": "Side Bright", "title": "Side Bright", "shortName": "Side Bright"},
+		{"name": "Side Speed", "title": "Side Speed", "shortName": "Side Speed"}
+	],
+
+	"matrix": { "rows": 6, "cols": 16 },
+	"layouts": {
+
+		"keymap": [
+			[
+	
+			],
+
+			[
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,0",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,1",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,2",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,3",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,4",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,5",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,6",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,7",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,8",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,9",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,10",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,11",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,12",
+				{ "w":2.0,  "h":1.0,  "x":0.0 },  "1,13",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,15"
+			],
+
+			[
+				{ "w":1.5,  "h":1.0,  "x":0.0 },  "2,0",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,1",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,2",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,3",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,4",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,5",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,6",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,7",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,8",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,9",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,10",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,11",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,12",
+				{ "w":1.5,  "h":1.0,  "x":0.0 },  "2,13",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,15"
+			],
+			
+			[
+				{ "w":1.8,  "h":1.0,  "x":0.0 },  "3,0",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,1",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,2",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,3",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,4",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,5",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,6",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,7",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,8",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,9",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,10",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,11",
+				{ "w":2.2,  "h":1.0,  "x":0.0 },  "3,13",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,15"
+			],
+			
+			[
+				{ "w":2.3,  "h":1.0,  "x":0.0 },  "4,0",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,1",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,2",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,3",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,4",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,5",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,6",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,7",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,8",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,9",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,10",
+				{ "w":1.7,  "h":1.0,  "x":0.0 },  "4,13",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,14",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,15"
+
+			],
+			
+			[
+				{ "w":1.3,  "h":1.0,  "x":0.0 },  "5,0",
+				{ "w":1.3,  "h":1.0,  "x":0.0 },  "5,1",
+				{ "w":1.3,  "h":1.0,  "x":0.0 },  "5,2",
+				{ "w":6.0,  "h":1.0,  "x":0.0 },  "5,5",
+				{ "w":1.4,  "h":1.0,  "x":0.0 },  "5,9",
+				{ "w":1.4,  "h":1.0,  "x":0.0 },  "5,10",
+				{ "w":1.0,  "h":1.0,  "x":0.3 },  "5,13",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "5,14",
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "5,15"
+			]
+		]
+	}
+}
